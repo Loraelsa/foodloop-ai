@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "n_real": 280,
+  "n_spoiled": 19,
+  "spoiled_share_of_distributed_before": 0.0679,
+  "after": 0.019,
+  "artifact": "/tmp/re.json"
+}

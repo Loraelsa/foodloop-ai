@@ -1,0 +1,50 @@
+{
+  "n_rows": 20000,
+  "data_source": "synthetic proxy (rule-based shelf life + noise)",
+  "features": [
+    "hours_since_prepared",
+    "ambient_temp_c",
+    "quantity_kg",
+    "cat_cooked_meal",
+    "cat_bakery",
+    "cat_dairy",
+    "cat_produce",
+    "cat_packaged",
+    "cat_dessert",
+    "store_ambient",
+    "store_refrigerated",
+    "store_hot_held"
+  ],
+  "results": [
+    {
+      "model": "LinearRegression (baseline)",
+      "rmse_hours": 71.722,
+      "r2": 0.3991,
+      "decision_accuracy": 0.571,
+      "decision_macro_f1": 0.3966,
+      "train_seconds": 0.026,
+      "inference_ms_single_row": 0.509,
+      "model_size_kb": null
+    },
+    {
+      "model": "RandomForest",
+      "rmse_hours": 17.822,
+      "r2": 0.9629,
+      "decision_accuracy": 0.8872,
+      "decision_macro_f1": 0.8268,
+      "train_seconds": 3.4,
+      "inference_ms_single_row": 6.626,
+      "model_size_kb": null
+    },
+    {
+      "model": "XGBoost (deployed)",
+      "rmse_hours": 21.891,
+      "r2": 0.944,
+      "decision_accuracy": 0.8808,
+      "decision_macro_f1": 0.8174,
+      "train_seconds": 0.155,
+      "inference_ms_single_row": 1.478,
+      "model_size_kb": 503.3
+    }
+  ]
+}

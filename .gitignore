@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.pyc
+*.db
+.env
+.pytest_cache/
+backend/app/ml/artifacts/
+.venv/
+venv/
+.local_secrets.json
+.env
+!.env.example
+*.log
+.DS_Store
