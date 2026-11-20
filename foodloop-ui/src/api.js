@@ -1,7 +1,6 @@
 // Optional FoodLoop backend. If it cannot be reached the UI silently falls back to the
 // built-in rule table (engine.js), so the page also works offline as a single HTML file.
-export const API = (typeof localStorage !== 'undefined' && localStorage.getItem('foodloop-api')) || 'http://127.0.0.1:8000'
-
+export const API = (typeof localStorage !== 'undefined' && localStorage.getItem('foodloop-api')) || (import.meta.env && import.meta.env.VITE_API_URL) || 'http://127.0.0.1:8000'
 async function post(path, body, ms = 2500) {
   const ctl = new AbortController()
   const t = setTimeout(() => ctl.abort(), ms)
