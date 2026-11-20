@@ -1,0 +1,131 @@
+{
+ "tests": [
+  {
+   "id": "E01",
+   "name": "Customer signs in and sees surplus feed",
+   "ok": true,
+   "note": "5 restaurants"
+  },
+  {
+   "id": "E02",
+   "name": "Add items to cart updates badge",
+   "ok": true,
+   "note": "badge=3"
+  },
+  {
+   "id": "E03",
+   "name": "Place order shows pickup code",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E04",
+   "name": "Restaurant sees the customer's order as a pickup",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E05",
+   "name": "Mark collected updates status",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E06",
+   "name": "Add-surplus falls back to rule table when backend is off",
+   "ok": true,
+   "note": "source=Rule table (offline)"
+  },
+  {
+   "id": "E07",
+   "name": "Publish routes new listing to listings page",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E08",
+   "name": "NGO sees the new donation",
+   "ok": true,
+   "note": "7 open donations"
+  },
+  {
+   "id": "E09",
+   "name": "Route plan falls back to local heuristic",
+   "ok": true,
+   "note": "source=Offline heuristic, 74 ms UI round trip"
+  },
+  {
+   "id": "E10",
+   "name": "Confirming a pickup removes the items from the open list",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E11",
+   "name": "Admin approves a pending restaurant",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E12",
+   "name": "Signed-out user cannot open /admin",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E13",
+   "name": "No horizontal overflow on a 390 px phone screen",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "id": "E14",
+   "name": "No uncaught JavaScript errors in the whole run",
+   "ok": true,
+   "note": ""
+  }
+ ],
+ "load": {
+  "dcl_ms": 240.5,
+  "load_ms": 240.80000000004657,
+  "fcp_ms": null,
+  "heap_mb": 10,
+  "runs": [
+   {
+    "dcl": 240.5,
+    "load": 240.80000000004657,
+    "fcp": null,
+    "heap": 10,
+    "wall": 252.5037450000127
+   },
+   {
+    "dcl": 236,
+    "load": 236.30000000004657,
+    "fcp": null,
+    "heap": 10,
+    "wall": 242.30997500001195
+   },
+   {
+    "dcl": 254.90000000002328,
+    "load": 255.09999999997672,
+    "fcp": null,
+    "heap": 10,
+    "wall": 258.85384399998657
+   },
+   {
+    "dcl": 209.09999999997672,
+    "load": 211.09999999997672,
+    "fcp": null,
+    "heap": 10,
+    "wall": 218.6100900000838
+   },
+   {
+    "dcl": 245.90000000002328,
+    "load": 247.90000000002328,
+    "fcp": null,
+    "heap": 10,
+    "wall": 250.80353700002433
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "cold_start_s": 2.2011597900000197,
+ "rss_mb_idle": 283.406336,
+ "create": {
+  "n": 400,
+  "median": 5.123838500026068,
+  "p95": 6.730991999916114,
+  "p99": 9.389307999981611,
+  "cpu_ms_per_req": 3.4999999999999996
+ },
+ "impact_nocache": {
+  "median": 11.725918499962518,
+  "p95": 44.025695999948766,
+  "cpu_ms_per_req": 16.066666666666666
+ },
+ "impact_cache": {
+  "median": 1.4226685000267025,
+  "p95": 2.056369999991148,
+  "cpu_ms_per_req": 0.9666666666666639
+ },
+ "health": {
+  "ok": true,
+  "cache": {
+   "hits": 300,
+   "miss": 301
+  }
+ },
+ "payload": {
+  "raw": 38956,
+  "gzip": 1398,
+  "encoding": "gzip"
+ },
+ "list_latency_gzip_off": null,
+ "throughput": {
+  "requests": 480,
+  "seconds": 2.0336013730000104,
+  "rps": 236.03445905029764,
+  "cpu_ms_per_req": 4.354166666666667
+ },
+ "rss_mb_end": 294.526976,
+ "index": {
+  "rows": 50000,
+  "with_index_ms": 5.955427499998223,
+  "without_index_ms": 8.66798850000805
+ }
+}

@@ -1,0 +1,12 @@
+fastapi==0.163.1
+uvicorn
+sqlalchemy
+pyjwt
+xgboost==3.4.1
+scikit-learn==1.9.1
+ortools==9.15.6755
+pandas
+numpy
+httpx
+psutil
+pytest

@@ -1,0 +1,42 @@
+[
+ {
+  "page": "Sign in",
+  "violations": [],
+  "passes": 21
+ },
+ {
+  "page": "Customer",
+  "violations": [],
+  "passes": 23
+ },
+ {
+  "page": "Customer restaurant page",
+  "violations": [],
+  "passes": 22
+ },
+ {
+  "page": "Restaurant dashboard",
+  "violations": [],
+  "passes": 22
+ },
+ {
+  "page": "Restaurant add surplus",
+  "violations": [],
+  "passes": 24
+ },
+ {
+  "page": "NGO donations",
+  "violations": [],
+  "passes": 20
+ },
+ {
+  "page": "Admin overview",
+  "violations": [],
+  "passes": 20
+ },
+ {
+  "page": "Admin decision rules",
+  "violations": [],
+  "passes": 21
+ }
+]
